@@ -3,7 +3,7 @@ The Apps team at Sky are pleased to send you this unattended test. This means we
 
 ## Pre-Interview Developer Test
 
-The test duration 3 hours.
+The test duration is ninety minutes
 
 If you could fork the Git repo, do an initial commit when you start, complete as much of the work outlined in the readme in the timeframe and send us back your solution that'd be great. Once complete please provide a link to your repository. We’d like to understand your approach as well as how great your work is, so please don’t simply commit all of your work in a single chunk.
 
@@ -11,9 +11,9 @@ Your solution will be evaluated on implementation of the below requirements, cod
 
 ## Requirements
 
-Create a NodeJS app which provides an authentication API to your angular app. The usernames 'user', 'manager', 'admin', 'developer', 'tester', with the password 'password' should be authenticated. All other combinations should fail. Eg, username 'john.smith' can never authenticate. Usernames should be case-insensitive, passwords should be case-sensitive.
+Create a NodeJS server which serves a React app and provides an authentication API for it. The usernames 'user', 'manager', 'admin', 'developer', 'tester', with the password 'password' should be authenticated. All other combinations should fail. Eg, username 'john.smith' can never authenticate. Usernames should be case-insensitive, passwords should be case-sensitive.
 
-Create an AngularJS app which allows a user to enter a username and password and authenticate both. Successful authentication should provide the user with a logged-in page and the ability to log out.
+Your React app should allow a user to enter a username and password and authenticate both. Successful authentication should provide the user with a logged-in page and the ability to log out.
 
 Authentication attempts should be recorded in a Mongo database with the following data:
 
